@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Login and registration routing.
+// Login registration and logout routing.
 Route::get('/register', [AuthController::class, 'register'])->name('register');
 Route::post('/register', [AuthController::class, 'registerPost'])->name('register.post');
 
