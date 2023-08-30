@@ -17,7 +17,7 @@
                 <div class="card">
                     <div class="card-header">{{ __('Dashboard') }}</div>
                     <div class="card-body">
-                        @if (session('success'))
+                        @if ( session('success') )
                             <div class="alert alert-success" role="alert">
                                 {{ session('success') }}
                             </div>
